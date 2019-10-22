@@ -24,6 +24,7 @@ main{
 }
 a {
     color: deepskyblue;
+    text-decoration: none;
 }
 a:hover{
     color: greenyellow;
