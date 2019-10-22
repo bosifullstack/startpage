@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>StartPage</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    </head>
+    <body>
+        <form id="google" method="get" action="https://www.google.com/search" target="_blank">
+            <label>Google:</label>
+            <input type="text" name="q" size="50" value="">
+            <button class="button" type="submit">Search</button>
+        </form>
+
+        <div>
+            <h1>Favorites</h1>
+
+            <div id="favorites">
+                <nav id="hobbies">
+                    <h2>Hobbies</h2>
+
+                    <!--Link para uso de dropdown menu: https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar -->
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Chás</a>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li class="dropdown2">
+                                            <a href="javascript:void(0)" class="dropbtn">China</a>
+                                            <div class="dropdown-content2">
+                                                <a href="https://white2tea.com/">White2Tea</a>
+                                                <a href="https://teaware.house/">Teaware.house</a>
+                                                <a href="https://www.teavivre.com/">TeaVivre</a>
+                                                <a href="https://www.farmer-leaf.com/">FarmerLeaf</a>
+                                            </div>
+                                    </li>
+                                </ul>
+                                <p>Japan</p>
+                                <a href="https://yunomi.life/">Yunomi</a>
+                                <a href="http://yuuki-cha.com/">Yuuki-cha</a>
+                                <a href="https://shop.ippodo-tea.co.jp/kyoto/shopf/">Ippodo</a>
+                                <a href="https://www.hibiki-an.com/index.php">Hibiki-an</a>
+                                <a href="https://www.thes-du-japon.com/index.php?main_page=index">Thés du Japon</a>
+                                <p>India</p>
+                                <a href="https://www.teabox.com/">TeaBox</a>
+                                <a href="https://www.vahdam.com/">Vahdam</a>
+                                <p>Vietnan</p>
+                                <a href="https://hatvala.com/">Hatvala</a>
+                                <p>Brazil</p>
+                                <a href="https://www.infusorina.com.br/">Infusorina</a>
+                                <a href="http://camelliachas.com.br/">Camellia</a>
+                                <a href="https://www.shoporiente.com.br/bebidas/chas">Shop Oriente</a>
+                                <a href="https://www.asiashop.com.br/categoria/cha-verde">Asia Shop</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        
+        <!-- TODO:
+            
+            <div class="wrapper">
+            <div class="clear"></div>
+            <div class="flame-wrapper">
+                <div class="flame red"></div>
+                <div class="flame orange"></div>
+                <div class="flame gold"></div>
+                <div class="flame white"></div>
+                <div class="base blue"></div>
+                <div class="base black"></div>
+            </div>
+       </div> -->
+
+    </body>
+</html>

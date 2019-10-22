@@ -1,0 +1,135 @@
+body {
+    margin: 2em;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+#google {
+    position: relative;
+    display: inline;
+    left: 35%;
+}
+#google label{
+    color: white;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color:deepskyblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.dropdown {
+    display: inline-block;
+}
+li.dropdown2 {
+    display: inline-block;
+}
+li p {
+    color: deepskyblue;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.dropdown-content a {
+    color: deepskyblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+/* .wrapper {
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 25%;
+}
+.clear {
+    width: 500px;
+    height: 500px;
+    background-color: #030303;
+    box-shadow: 0px 0px 10px 5px #010101;
+}
+.red {
+    width: 80px;
+    height: 80px;
+    background: orangered;
+    box-shadow: 0px 0px 10px 5px orangered;
+}
+.orange {
+    width: 60px;
+    height: 60px;
+    background: orange;
+    left: 10px;
+    box-shadow: 0px 0px 12px 6px orange;
+}
+.gold {
+    width: 45px;
+    height: 45px;
+    background: gold;
+    left: 18px;
+    box-shadow: 0px 0px 9px 4px gold;
+}
+.white {
+    width: 35px;
+    height: 35px;
+    background: lightyellow;
+    left: 22px;
+    box-shadow: 0px 0px 9px 4px lightyellow;
+}
+.blue {
+    left:32px;
+    width: 15px;
+    height: 15px;
+    background: darkblue;
+    box-shadow: 0px 0px 15px 10px darkblue;
+}
+.black {
+    left:20px;
+    width: 40px;
+    height: 40px;
+    bottom:-50px;
+    background: black;
+    box-shadow: 0px 0px 15px 10px black;
+}
+.base {
+    border-radius: 50%;
+    position: absolute;
+}
+.flame-wrapper {
+    position: relative;
+    left:45%;
+    animation: flicker 3ms linear infinite;
+}
+.flame {
+    bottom: 0;
+    position: absolute;
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(-45deg);
+}
+@keyframes flicker {
+    20% {transform: scaleY(1.05);}
+    80% {transform: scaleY(0.90);}
+} */
