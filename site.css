@@ -33,6 +33,9 @@ aside{
 }
 
 @media (min-width: 800px){
+    #google input{
+        width: 50%;
+    }
     main{
         display: flex;
     }
