@@ -30,13 +30,13 @@ aside{
     display: none;
 }
 
-@media (min-width: 900px){
+@media (min-width: 800px){
     main{
         display: flex;
     }
     aside{
         display: block;
-        width: Calc(100% / 6);
+        width: Calc(100% / 5);
     }
     a{
         display: block;
