@@ -1,10 +1,10 @@
 body {
-    margin: 2em;
-    padding: 0;
+    margin: 0 2em;
     background-color: rgb(50, 50, 65);
     color: white;
 }
 #google {
+    padding-top: 4em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +16,9 @@ body {
 #google button{
     margin-left: 1em;
 }
-main, h1{
+main{
     text-align: center;
+    padding: 2em;
 }
 a {
     color: deepskyblue;
@@ -25,12 +26,16 @@ a {
 a:hover{
     color: greenyellow;
 }
+aside{
+    display: none;
+}
 
-@media (min-width: 800px){
+@media (min-width: 900px){
     main{
         display: flex;
     }
     aside{
+        display: block;
         width: Calc(100% / 6);
     }
     a{
