@@ -2,6 +2,7 @@ body {
     margin: 0 2em;
     background-color: rgb(30, 30, 40);
     color: white;
+    font-family: Ubuntu Mono, sans-serif;
 }
 #google {
     padding-top: 4em;
@@ -12,6 +13,7 @@ body {
 #google label{
     color: white;
     margin-right: 1em;
+    font-size: 1.2em;
 }
 #google button{
     margin-left: 1em;
