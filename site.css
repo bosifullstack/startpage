@@ -7,16 +7,11 @@ body {
 #google {
     padding-top: 4em;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 #google label{
     color: white;
-    margin-right: 1em;
     font-size: 1.2em;
-}
-#google button{
-    margin-left: 1em;
 }
 main{
     text-align: center;
@@ -35,7 +30,7 @@ aside{
 
 @media (min-width: 800px){
     #google input{
-        width: 50%;
+        width: 75%;
     }
     main{
         display: flex;
