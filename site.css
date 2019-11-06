@@ -1,6 +1,6 @@
 body {
     margin: 0 2em;
-    background-color: rgb(30, 30, 40);
+    background-color: rgb(35, 35, 60);
     color: white;
     font-family: Ubuntu Mono, sans-serif;
 }
@@ -13,13 +13,38 @@ body {
     color: white;
     font-size: 1.2em;
 }
+#google input{
+    width: 60%;
+}
+.button{
+    background-color: black;
+    color: deepskyblue;
+    border: lightblue 1px solid;
+    border-radius: 5px;;
+}
+.menuCel{
+    padding-top: 4em;
+}
+.nav-btn{
+    height: 2em;
+    width: 10em;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+}
+.clear{
+    display: none;
+    margin-bottom: 2em;
+}
 main{
     text-align: center;
-    padding: 2em;
+    padding: 0;
 }
 a {
     color: deepskyblue;
     text-decoration: none;
+    display: block;
+    padding: 0.5em 0;
 }
 a:hover, a:focus{
     color: gray;
@@ -29,18 +54,21 @@ aside{
 }
 
 @media (min-width: 800px){
+    body {
+    margin: 0 2em;
+    }
     #google input{
         width: 75%;
     }
     main{
         display: flex;
+        padding: 2em;
     }
     aside{
         display: block;
         width: Calc(100% / 5);
     }
-    a{
-        display: block;
-        padding: 0.5em 0;
+    nav{
+        display: none;
     }
 }
