@@ -20,7 +20,12 @@ body {
     background-color: black;
     color: deepskyblue;
     border: lightblue 1px solid;
-    border-radius: 5px;;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: deepskyblue;
+    color: black;
 }
 .menuCel{
     padding-top: 4em;
