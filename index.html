@@ -15,10 +15,7 @@
         <script>
             if ('serviceWorker' in navigator) {
                 window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/startpage/service-worker.js'), {scope: '/startpage/'}
-                        .then((reg) => {
-                        console.log('Service worker registered.', reg);
-                        });
+                    navigator.serviceWorker.register('/startpage/service-worker.js'), {scope: '/startpage/'}                        
                 });
                 } 
         </script>
@@ -39,9 +36,6 @@
             <button class="menu btn btn-nav" type="button" onclick="menuUtilities()">Utilities</button>
             <button class="menu btn btn-nav" type="button" onclick="menuBooks()">Books</button>
             <button class="menu btn btn-nav" type="button" onclick="menuHowTea()">How do I make Tea?</button>
-            <button class="menu btn btn-nav" type="button" onclick="install()">
-            Install this app</button>
-            
         </nav>
 
         <main>
