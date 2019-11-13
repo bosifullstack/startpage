@@ -1,3 +1,9 @@
+(() => {
+
+    if('serviceWorker' in navigator){
+        console.log("Service Worker is supported")
+    }
+})();
 menuTea = function(){
     document.querySelector("#tea").style.display = "block";
     document.querySelector(".clearCel").style.display = "block";

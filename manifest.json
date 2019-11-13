@@ -1,0 +1,18 @@
+{
+  "name": "Tea StartPage",
+  "short_name": "StartPage",
+  "theme_color": "#23233c",
+  "background_color": "#23233c",
+  "display": "browser",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+    "src": "favicon.ico",
+    "sizes": "32x32",
+    "type": "image/ico"
+  }
+  ],
+  "splash_pages": null
+}
