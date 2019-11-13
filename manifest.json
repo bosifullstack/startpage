@@ -3,16 +3,9 @@
   "short_name": "StartPage",
   "theme_color": "#23233c",
   "background_color": "#23233c",
-  "display": "browser",
+  "display": "fullscreen",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "/",
-  "icons": [
-    {
-    "src": "favicon.ico",
-    "sizes": "32x32",
-    "type": "image/ico"
-  }
-  ],
-  "splash_pages": null
+  "icons":[{"src":"./images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/./images/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],
+  "start_url": "index.html"
 }

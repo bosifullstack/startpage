@@ -4,12 +4,12 @@
         <title>StartPage</title>
         <meta charset="utf-8">
         <link rel="icon" href="./images/favicon.ico">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <meta name="description" content="Custom start page with some links">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="site.css">
         <link rel="manifest" href="manifest.json">
+        <script src="index.js"></script>
         <meta name="theme-color" content="#23233c" />
 
         <script>
@@ -24,7 +24,6 @@
         </script>
     </head>
     <body>
-        <button id="butInstall" aria-label="Install" hidden></button>
         <form id="google" method="get" action="https://www.google.com/search" target="_blank">
             <label>Google:
             <input autofocus type="text" name="q" value="" size="35">
@@ -226,8 +225,6 @@
         <nav>
             <button class="clearCel btn btn-nav" type="button" onclick="menuClearCel()">Clear</button>
         </nav>
-        <script src="index.js"></script>
-        <script src="install.js"></script>
     </body>
 
 </html>
