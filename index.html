@@ -14,17 +14,19 @@
             <label>Google:
             <input autofocus type="text" name="q" value="" size="35">
             </label>
-            <button class="button" type="submit">Search</button>
+            <button class="btn" type="submit">Search</button>
         </form>
 
         <nav class="menuCel">
-            <button class="menu button nav-btn" type="button" onclick="menuTea()">Tea</button>
-            <button class="menu button nav-btn" type="button" onclick="menuStudy()">Study</button>
-            <button class="menu button nav-btn" type="button" onclick="menuProgramming()">Programming</button>
-            <button class="menu button nav-btn" type="button" onclick="menuUtilities()">Utilities</button>
-            <button class="menu button nav-btn" type="button" onclick="menuBooks()">Books</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuTea()">Tea</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuStudy()">Study</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuProgramming()">Programming</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuUtilities()">Utilities</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuBooks()">Books</button>
+            <button class="menu btn btn-nav" type="button" onclick="menuHowTea()">How do I make Tea?</button>
+            
         </nav>
-        
+
         <main>
 
             <aside id="tea">
@@ -98,8 +100,112 @@
 
         </main>
 
+        <article id="teaRecipes">
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Teas</th>
+                        <th colspan="2">Western Style (100ml)</th>
+                        <th colspan="2">Half Gongfu (100ml)</th>
+                        <th colspan="2">Gongfu Style (100ml)</th>
+                    </tr>
+                    <tr>
+                        <th>Weight</th>
+                        <th>Time</th>
+                        <th>Weight</th>
+                        <th>Time</th>
+                        <th>Weight</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chinese green</td>
+                        <td>2g</td>
+                        <td>2 min</td>
+                        <td>3g</td>
+                        <td>50 sec</td>
+                        <td>5g</td>
+                        <td>20 sec</td>
+                    </tr>
+                    <tr>
+                        <td>Japanese green</td>
+                        <td>2g</td>
+                        <td>2 min</td>
+                        <td>4g</td>
+                        <td>1 min</td>
+                        <td>6g</td>
+                        <td>20 sec</td>
+                    </tr>                    
+                    <tr>
+                        <td>White</td>
+                        <td>2g</td>
+                        <td>5 min</td>
+                        <td>3g</td>
+                        <td>50 sec</td>
+                        <td>6g</td>
+                        <td>10 sec</td>
+                    </tr>                   
+                     <tr>
+                        <td>Oolong</td>
+                        <td>2g</td>
+                        <td>3 min</td>
+                        <td>4g</td>
+                        <td>1 min</td>
+                        <td>6g</td>
+                        <td>20 sec</td>
+                    </tr>                    
+                    <tr>
+                        <td>Black</td>
+                        <td>2g</td>
+                        <td>5 min</td>
+                        <td>3g</td>
+                        <td>1 min</td>
+                        <td>6g</td>
+                        <td>10 sec</td>
+                    </tr>                    
+                    <tr>
+                        <td>Shou Puer</td>
+                        <td>3g</td>
+                        <td>5 min</td>
+                        <td>4g</td>
+                        <td>1 min</td>
+                        <td>9g</td>
+                        <td>10 sec</td>
+                    </tr>                    
+                    <tr>
+                        <td>Sheng Puer</td>
+                        <td>2g</td>
+                        <td>3 min</td>
+                        <td>4g</td>
+                        <td>1 min</td>
+                        <td>6g</td>
+                        <td>5 sec</td>
+                    </tr>                    
+                    <tr>
+                        <td>Herbal</td>
+                        <td>2g</td>
+                        <td>7 min</td>
+                        <td>Don't apply</td>
+                        <td>Don't apply</td>
+                        <td>Don't apply</td>
+                        <td>Don't apply</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        
+        <div id="howToTea" class="menuCel">
+
+            <button class="menu btn btn-nav" type="button" onclick="menuHowTeaDesktop()">How do I make Tea?</button>
+        </div> 
+
+        <div id="clearDesktop">
+            <button class="btn btn-nav" type="button" onclick="menuClearDesktop()">Clear</button>
+        </div>
+
         <nav>
-            <button class="clear button nav-btn" type="button" onclick="menuClear()">Clear</button>
+            <button class="clearCel btn btn-nav" type="button" onclick="menuClearCel()">Clear</button>
         </nav>
 
         <script src="index.js"></script>
