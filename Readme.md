@@ -1,6 +1,6 @@
 # PWA StartPage focused on links about tea and programming
 
-This a page meant to be a responsive pwa startpage with some import links to myself and with a little table to help me calculate how to make tea on the style I want.
+This page is meant to be a responsive pwa startpage with some import links to myself and with a little table to help me calculate how to make tea on the style I want.
 
 <img src="readmeImages/screenshotofStartPage.jpg" alt="Screenshot of the StartPage">
 
