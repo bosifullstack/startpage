@@ -1,243 +1,438 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>StartPage</title>
-        <meta charset="utf-8">
-        <link rel="icon" href="./images/favicon.ico">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-        <meta name="description" content="Custom start page with some links">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="site.css">
-        <link rel="manifest" href="manifest.json">
-        <meta name="theme-color" content="#23233c" />
+  <head>
+    <title>StartPage</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <meta name="description" content="Custom start page with some links" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="site.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#23233c" />
 
-        <script>
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/startpage/service-worker.js'), {scope: '/startpage/'}                        
-                });
-                } 
-        </script>
-    </head>
-    <body>
-        <button id="butInstall" aria-label="Install" hidden></button>
-        <form id="google" method="get" action="https://www.google.com/search" target="_blank">
-            <label>Google:
-            <input autofocus type="text" name="q" value="" size="35">
-            </label>
-            <button class="btn" type="submit">Search</button>
-        </form>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/startpage/service-worker.js"),
+            { scope: "/startpage/" };
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <button id="butInstall" aria-label="Install" hidden></button>
+    <form
+      id="google"
+      method="get"
+      action="https://www.google.com/search"
+      target="_blank"
+    >
+      <label
+        >Google:
+        <input autofocus type="text" name="q" value="" size="35" />
+      </label>
+      <button class="btn" type="submit">Search</button>
+    </form>
 
-        <nav class="menuCel">
-            <button class="menu btn btn-nav" type="button" onclick="menuTea()">Tea</button>
-            <button class="menu btn btn-nav" type="button" onclick="menuStudy()">Study</button>
-            <button class="menu btn btn-nav" type="button" onclick="menuProgramming()">Programming</button>
-            <button class="menu btn btn-nav" type="button" onclick="menuUtilities()">Utilities</button>
-            <button class="menu btn btn-nav" type="button" onclick="menuBooks()">Books</button>
-            <button class="menu btn btn-nav" type="button" onclick="menuHowTea()">How do I make Tea?</button>
-        </nav>
+    <nav class="menuCel">
+      <button class="menu btn btn-nav" type="button" onclick="menuTea()">
+        Tea
+      </button>
+      <button class="menu btn btn-nav" type="button" onclick="menuStudy()">
+        Study
+      </button>
+      <button
+        class="menu btn btn-nav"
+        type="button"
+        onclick="menuProgramming()"
+      >
+        Programming
+      </button>
+      <button class="menu btn btn-nav" type="button" onclick="menuUtilities()">
+        Utilities
+      </button>
+      <button class="menu btn btn-nav" type="button" onclick="menuBooks()">
+        Books
+      </button>
+      <button class="menu btn btn-nav" type="button" onclick="menuHowTea()">
+        How do I make Tea?
+      </button>
+    </nav>
 
-        <main>
+    <main>
+      <aside id="tea">
+        <h2>Tea</h2>
 
-            <aside id="tea">
-                
-                <h2>Tea</h2>
-                                        
-                <a href="https://www.teavivre.com/" target="_blank" rel="noopener">TeaVivre</a>
-                <a href="https://white2tea.com/" target="_blank" rel="noopener">White2Tea</a>
-                <a href="https://teaware.house/" target="_blank" rel="noopener">Teaware.house</a>
-                <a href="https://yunomi.life/" target="_blank" rel="noopener">Yunomi</a>
-                <a href="http://yuuki-cha.com/" target="_blank" rel="noopener">Yuuki-cha</a>
-                <a href="https://shop.ippodo-tea.co.jp/kyoto/shopf/" target="_blank" rel="noopener">Ippodo</a>
-                <a href="https://www.vahdam.com/" target="_blank" rel="noopener">Vahdam</a>
-                <a href="https://hatvala.com/" target="_blank" rel="noopener">Hatvala</a>
-                <a href="https://botano.gr/" target="_blank" rel="noopener">Botano Cretan Herbs</a> 
-                <a href="https://www.infusorina.com.br/" target="_blank" rel="noopener">Infusorina</a>
-                <a href="https://www.asiashop.com.br/categoria/chas-21079654" target="_blank" rel="noopener">Asia Shop</a>
-            
-            </aside>
+        <a href="https://www.teavivre.com/" target="_blank" rel="noopener"
+          >TeaVivre</a
+        >
+        <a href="https://white2tea.com/" target="_blank" rel="noopener"
+          >White2Tea</a
+        >
+        <a href="https://teaware.house/" target="_blank" rel="noopener"
+          >Teaware.house</a
+        >
+        <a href="https://yunomi.life/" target="_blank" rel="noopener">Yunomi</a>
+        <a href="http://yuuki-cha.com/" target="_blank" rel="noopener"
+          >Yuuki-cha</a
+        >
+        <a
+          href="https://shop.ippodo-tea.co.jp/kyoto/shopf/"
+          target="_blank"
+          rel="noopener"
+          >Ippodo</a
+        >
+        <a href="https://www.vahdam.com/" target="_blank" rel="noopener"
+          >Vahdam</a
+        >
+        <a href="https://hatvala.com/" target="_blank" rel="noopener"
+          >Hatvala</a
+        >
+        <a href="https://botano.gr/" target="_blank" rel="noopener"
+          >Botano Cretan Herbs</a
+        >
+        <a href="https://www.infusorina.com.br/" target="_blank" rel="noopener"
+          >Infusorina</a
+        >
+        <a
+          href="https://www.asiashop.com.br/categoria/chas-21079654"
+          target="_blank"
+          rel="noopener"
+          >Asia Shop</a
+        >
+      </aside>
 
-            <aside id="study">
+      <aside id="study">
+        <h2>Study</h2>
 
-                <h2>Study</h2>
+        <a href="https://roadmap.sh/" target="_blank" rel="noopener"
+          >Web Dev Roadmap</a
+        >
+        <a
+          href="http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/"
+          target="_blank"
+          rel="noopener"
+          >Data Science Roadmap</a
+        >
+        <a href="https://www.codingame.com/start" target="_blank" rel="noopener"
+          >CodinGame</a
+        >
+        <a
+          href="https://www.freecodecamp.org/learn/"
+          target="_blank"
+          rel="noopener"
+          >FreeCodeCamp</a
+        >
+        <a
+          href="https://pucminas.instructure.com/"
+          target="_blank"
+          rel="noopener"
+          >PUCMinas Canvas</a
+        >
+        <a
+          href="https://cursos.alura.com.br/dashboard"
+          target="_blank"
+          rel="noopener"
+          >Alura Dashboard</a
+        >
+        <a
+          href="https://www.udemy.com/home/my-courses/learning/"
+          target="_blank"
+          rel="noopener"
+          >Udemy</a
+        >
+        <a
+          href="https://training.talkpython.fm/account/"
+          target="_blank"
+          rel="noopener"
+          >Talk Python</a
+        >
+        <a
+          href="https://github.com/uhub/awesome-javascript"
+          target="_blank"
+          rel="noopener"
+          >Awesome JavaScript</a
+        >
+        <a
+          href="https://github.com/sindresorhus/awesome-nodejs"
+          target="_blank"
+          rel="noopener"
+          >Awesome Node.js</a
+        >
+        <a
+          href="https://github.com/mahmoud/awesome-python-applications"
+          target="_blank"
+          rel="noopener"
+          >Awesome Python</a
+        >
+      </aside>
 
-                <a href="https://roadmap.sh/" target="_blank" rel="noopener">Web Dev Roadmap</a>
-                <a href="http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/" target="_blank" rel="noopener">Data Science Roadmap</a>
-                <a href="https://www.codingame.com/start" target="_blank" rel="noopener">CodinGame</a>
-                <a href="https://www.freecodecamp.org/learn/" target="_blank" rel="noopener">FreeCodeCamp</a>
-                <a href="https://pucminas.instructure.com/" target="_blank" rel="noopener">PUCMinas Canvas</a>
-                <a href="https://cursos.alura.com.br/dashboard" target="_blank" rel="noopener">Alura Dashboard</a>
-                <a href="https://www.udemy.com/home/my-courses/learning/" target="_blank" rel="noopener">Udemy</a>
-                <a href="https://training.talkpython.fm/account/" target="_blank" rel="noopener">Talk Python</a>
-                <a href="https://github.com/uhub/awesome-javascript" target="_blank" rel="noopener">Awesome JavaScript</a>
-                <a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank" rel="noopener">Awesome Node.js</a>
-                <a href="https://github.com/mahmoud/awesome-python-applications" target="_blank" rel="noopener">Awesome Python</a>
+      <aside id="programming">
+        <h2>Programming</h2>
 
-            </aside>
+        <a href="https://devhints.io/" target="_blank" rel="noopener"
+          >Devs cheatsheets</a
+        >
+        <a href="https://contrast-ratio.com/" target="_blank" rel="noopener"
+          >Contrast Ratio</a
+        >
+        <a href="https://purecss.io/" target="_blank" rel="noopener"
+          >Pure CSS</a
+        >
+        <a href="https://caniuse.com/" target="_blank" rel="noopener"
+          >Can I Use</a
+        >
+        <a href="https://bundlephobia.com/" target="_blank" rel="noopener"
+          >NPM bundlephopia</a
+        >
+        <a href="https://coolors.co/" target="_blank" rel="noopener"
+          >Coolors - color scheme</a
+        >
+        <a href="https://favicon.io/" target="_blank" rel="noopener"
+          >Favicon generator</a
+        >
+        <a
+          href="https://fontawesome.com/icons?d=gallery&m=free"
+          target="_blank"
+          rel="noopener"
+          >Font Awesome icons</a
+        >
+        <a href="https://regex101.com/" target="_blank" rel="noopener"
+          >Regex 101</a
+        >
+      </aside>
 
-            <aside id="programming">
+      <aside id="utilities">
+        <h2>Utilities</h2>
 
-                <h2>Programming</h2>
-               
-                <a href="https://devhints.io/" target="_blank" rel="noopener">Devs cheatsheets</a>
-                <a href="https://contrast-ratio.com/" target="_blank" rel="noopener">Contrast Ratio</a>
-                <a href="https://purecss.io/" target="_blank" rel="noopener">Pure CSS</a>
-                <a href="https://caniuse.com/" target="_blank" rel="noopener">Can I Use</a>
-                <a href="https://bundlephobia.com/" target="_blank" rel="noopener">NPM bundlephopia</a>
-                <a href="https://coolors.co/" target="_blank" rel="noopener">Coolors - color scheme</a>
-                <a href="https://favicon.io/" target="_blank" rel="noopener">Favicon generator</a>
-                <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" rel="noopener">Font Awesome icons</a>
-                <a href="https://regex101.com/" target="_blank" rel="noopener">Regex 101</a>
+        <a href="https://todoist.com/app#start" target="_blank" rel="noopener"
+          >Todoist</a
+        >
+        <a
+          href="https://drive.google.com/drive/u/0/my-drive"
+          target="_blank"
+          rel="noopener"
+          >Google Drive</a
+        >
+        <a href="https://stackoverflow.com/" target="_blank" rel="noopener"
+          >Stack Overflow</a
+        >
+        <a
+          href="https://open.spotify.com/browse/featured?_ga=2.152549360.859831711.1539799999-306076735.1539799999"
+          target="_blank"
+          rel="noopener"
+          >Spotify</a
+        >
+        <a href="https://feedly.com/i/welcome" target="_blank" rel="noopener"
+          >Feedly</a
+        >
+        <a
+          href="https://www.overleaf.com/project"
+          target="_blank"
+          rel="noopener"
+          >Overleaf Latex</a
+        >
+        <a href="https://repl.it/repls" target="_blank" rel="noopener"
+          >Repl.it</a
+        >
+      </aside>
 
-            </aside>
+      <aside id="books">
+        <h2>Books and Docs</h2>
 
-            <aside id="utilities">
+        <a
+          href="https://sass-lang.com/documentation"
+          target="_blank"
+          rel="noopener"
+          >SASS Doc</a
+        >
+        <a href="https://angular.io/docs" target="_blank" rel="noopener"
+          >Angular Doc</a
+        >
+        <a
+          href="https://www.typescriptlang.org/docs/home.html"
+          target="_blank"
+          rel="noopener"
+          >TypeScript Doc</a
+        >
+        <a
+          href="https://webpack.js.org/concepts/"
+          target="_blank"
+          rel="noopener"
+          >Webpack Doc</a
+        >
+        <a href="https://reactjs.org/" target="_blank" rel="noopener"
+          >React Doc</a
+        >
+        <a href="https://react-redux.js.org/" target="_blank" rel="noopener"
+          >React-redux Doc</a
+        >
+        <a
+          href="https://code.visualstudio.com/docs"
+          target="_blank"
+          rel="noopener"
+          >VS Code Docs</a
+        >
+        <a
+          href="http://folk.ntnu.no/geirha/bashguide.pdf"
+          target="_blank"
+          rel="noopener"
+          >Bash Guide</a
+        >
+        <a
+          href="https://developer.mozilla.org/en-US/"
+          target="_blank"
+          rel="noopener"
+          >Mozilla Developers</a
+        >
+        <a href="http://libgen.is/" target="_blank" rel="noopener"
+          >Library Genesis</a
+        >
+        <a
+          href="https://www.casadocodigo.com.br/"
+          target="_blank"
+          rel="noopener"
+          >Casa do Código</a
+        >
+      </aside>
+    </main>
 
-                <h2>Utilities</h2>
+    <article id="teaRecipes">
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="3">Teas</th>
+            <th colspan="2">Western (100ml)</th>
+            <th colspan="2">Eastern (100ml)</th>
+            <th colspan="2">Gongfu (100ml)</th>
+          </tr>
+          <tr>
+            <th>W</th>
+            <th rowspan="2">Time (min)</th>
+            <th>W</th>
+            <th rowspan="2">Time (sec)</th>
+            <th>W</th>
+            <th rowspan="2">Time (sec)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>China green</td>
+            <td>2g</td>
+            <td>2</td>
+            <td>3g</td>
+            <td>50</td>
+            <td>5g</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Japan green</td>
+            <td>2g</td>
+            <td>2</td>
+            <td>4g</td>
+            <td>60</td>
+            <td>6g</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>White</td>
+            <td>2g</td>
+            <td>5</td>
+            <td>3g</td>
+            <td>50</td>
+            <td>6g</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Oolong</td>
+            <td>2g</td>
+            <td>3</td>
+            <td>4g</td>
+            <td>60</td>
+            <td>6g</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Black</td>
+            <td>2g</td>
+            <td>5</td>
+            <td>3g</td>
+            <td>60</td>
+            <td>6g</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Shou Puer</td>
+            <td>3g</td>
+            <td>5</td>
+            <td>4g</td>
+            <td>60</td>
+            <td>9g</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Sheng Puer</td>
+            <td>2g</td>
+            <td>3</td>
+            <td>4g</td>
+            <td>60</td>
+            <td>6g</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Herbal</td>
+            <td>2g</td>
+            <td>7</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="teaText">
+        All infusion time above is about the first steep. Aside from herbal, all
+        types of tea can endure more than one steep.
+      </p>
 
-                <a href="https://todoist.com/app#start" target="_blank" rel="noopener">Todoist</a>
-                <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank" rel="noopener">Google Drive</a>
-                <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a>
-                <a href="https://open.spotify.com/browse/featured?_ga=2.152549360.859831711.1539799999-306076735.1539799999" target="_blank" rel="noopener">Spotify</a>
-                <a href="https://feedly.com/i/welcome" target="_blank" rel="noopener">Feedly</a>
-                <a href="https://www.overleaf.com/project" target="_blank" rel="noopener">Overleaf Latex</a>
-                <a href="https://repl.it/repls" target="_blank" rel="noopener">Repl.it</a>
+      <p class="teaText">
+        For the second steep try an infusion time similar or a little shorter
+        than the first steep. For the rest of the steeps, increase your infusion
+        time and test it until you find an infusion time that makes a tea that
+        you like.
+      </p>
+    </article>
 
-            </aside>
-                
-            <aside id="books">
+    <div id="howToTea" class="menuCel">
+      <button
+        class="menu btn btn-nav"
+        type="button"
+        onclick="menuHowTeaDesktop()"
+      >
+        How do I make Tea?
+      </button>
+    </div>
 
-                <h2>Books and Docs</h2>
+    <div id="clearDesktop">
+      <button class="btn btn-nav" type="button" onclick="menuClearDesktop()">
+        Clear
+      </button>
+    </div>
 
-                <a href="https://sass-lang.com/documentation" target="_blank" rel="noopener">SASS Doc</a>
-                <a href="https://angular.io/docs" target="_blank" rel="noopener">Angular Doc</a>
-                <a href="https://www.typescriptlang.org/docs/home.html" target="_blank" rel="noopener">TypeScript Doc</a>
-                <a href="https://webpack.js.org/concepts/" target="_blank" rel="noopener">Webpack Doc</a>
-                <a href="https://reactjs.org/" target="_blank" rel="noopener">React Doc</a>
-                <a href="https://react-redux.js.org/" target="_blank" rel="noopener">React-redux Doc</a>
-                <a href="https://code.visualstudio.com/docs" target="_blank" rel="noopener">VS Code Docs</a>
-                <a href="http://folk.ntnu.no/geirha/bashguide.pdf" target="_blank" rel="noopener">Bash Guide</a>
-                <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">Mozilla Developers</a>
-                <a href="http://libgen.is/" target="_blank" rel="noopener">Library Genesis</a>
-                <a href="https://www.casadocodigo.com.br/" target="_blank" rel="noopener">Casa do Código</a>
-
-            </aside>
-
-        </main>
-
-        <article id="teaRecipes">
-            <table>
-                <thead>
-                    <tr>
-                        <th rowspan="3">Teas</th>
-                        <th colspan="2">Western (100ml)</th>
-                        <th colspan="2">Eastern (100ml)</th>
-                        <th colspan="2">Gongfu (100ml)</th>
-                    </tr>
-                    <tr>
-                        <th>W</th>
-                        <th rowspan="2">Time (min)</th>
-                        <th>W</th>
-                        <th rowspan="2">Time (sec)</th>
-                        <th>W</th>
-                        <th rowspan="2">Time (sec)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>China green</td>
-                        <td>2g</td>
-                        <td>2</td>
-                        <td>3g</td>
-                        <td>50</td>
-                        <td>5g</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>Japan green</td>
-                        <td>2g</td>
-                        <td>2</td>
-                        <td>4g</td>
-                        <td>60</td>
-                        <td>6g</td>
-                        <td>20</td>
-                    </tr>                    
-                    <tr>
-                        <td>White</td>
-                        <td>2g</td>
-                        <td>5</td>
-                        <td>3g</td>
-                        <td>50</td>
-                        <td>6g</td>
-                        <td>10</td>
-                    </tr>                   
-                     <tr>
-                        <td>Oolong</td>
-                        <td>2g</td>
-                        <td>3</td>
-                        <td>4g</td>
-                        <td>60</td>
-                        <td>6g</td>
-                        <td>20</td>
-                    </tr>                    
-                    <tr>
-                        <td>Black</td>
-                        <td>2g</td>
-                        <td>5</td>
-                        <td>3g</td>
-                        <td>60</td>
-                        <td>6g</td>
-                        <td>10</td>
-                    </tr>                    
-                    <tr>
-                        <td>Shou Puer</td>
-                        <td>3g</td>
-                        <td>5</td>
-                        <td>4g</td>
-                        <td>60</td>
-                        <td>9g</td>
-                        <td>10</td>
-                    </tr>                    
-                    <tr>
-                        <td>Sheng Puer</td>
-                        <td>2g</td>
-                        <td>3</td>
-                        <td>4g</td>
-                        <td>60</td>
-                        <td>6g</td>
-                        <td>5</td>
-                    </tr>                    
-                    <tr>
-                        <td>Herbal</td>
-                        <td>2g</td>
-                        <td>7</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="teaText">All infusion time above is about the first steep. Aside from herbal, all types of tea can endure more than one steep.</p>
-
-            <p class="teaText">For the second steep try an infusion time similar or a little shorter than the first steep. For the rest of the steeps, increase your infusion time and test it until you find an infusion time that makes a tea that you like.</p>
-        </article>
-        
-        <div id="howToTea" class="menuCel">
-
-            <button class="menu btn btn-nav" type="button" onclick="menuHowTeaDesktop()">How do I make Tea?</button>
-        </div> 
-
-        <div id="clearDesktop">
-            <button class="btn btn-nav" type="button" onclick="menuClearDesktop()">Clear</button>
-        </div>
-
-        <nav>
-            <button class="clearCel btn btn-nav" type="button" onclick="menuClearCel()">Clear</button>
-        </nav>
-        <script src="index.js"></script>
-        <script src="install.js"></script>
-    </body>
-
+    <nav>
+      <button
+        class="clearCel btn btn-nav"
+        type="button"
+        onclick="menuClearCel()"
+      >
+        Clear
+      </button>
+    </nav>
+    <script src="selectionFunctions.js"></script>
+    <script src="cell.js"></script>
+    <script src="desktop.js"></script>
+    <script src="install.js"></script>
+  </body>
 </html>
