@@ -1,28 +1,36 @@
 <script>
-	export let name;
+  export let name;
+  import Fetch from "./Fetch.svelte";
 </script>
 
+<style type="text/scss">
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+  }
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
+</style>
+
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the XXX <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <h1>Hello {name}!</h1>
+  <p>
+    Visit th
+    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
+    to learn how to build Svelte apps.
+  </p>
 </main>
 
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+<Fetch dataFile="./data/tea.json" idName="tea" />
+<Fetch dataFile="./data/study.json" idName="study" />
+<Fetch dataFile="./data/programming.json" idName="programming" />

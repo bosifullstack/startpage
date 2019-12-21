@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://roadmap.sh/",
+    "name": "Web Dev Roadmap"
+  },
+  {
+    "url": "http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/",
+    "name": "Data Science Roadmap"
+  },
+  {
+    "url": "https://www.codingame.com/start",
+    "name": "CodinGame"
+  },
+  {
+    "url": "https://www.freecodecamp.org/learn/",
+    "name": "FreeCodeCamp"
+  },
+  {
+    "url": "https://pucminas.instructure.com/",
+    "name": "PUCMinas Canvas"
+  },
+  {
+    "url": "https://cursos.alura.com.br/dashboard",
+    "name": "Alura Dashboard"
+  },
+  {
+    "url": "https://www.udemy.com/home/my-courses/learning/",
+    "name": "Udemy"
+  },
+  {
+    "url": "https://training.talkpython.fm/account/",
+    "name": "Talk Python"
+  },
+  {
+    "url": "https://github.com/uhub/awesome-javascript",
+    "name": "Awesome JavaScript"
+  },
+  {
+    "url": "https://github.com/sindresorhus/awesome-nodejs",
+    "name": "Awesome Node.js"
+  },
+  {
+    "url": "https://github.com/mahmoud/awesome-python-applications",
+    "name": "Awesome Python"
+  }
+]

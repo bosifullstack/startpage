@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://devhints.io/",
+    "name": "Devs cheatsheets"
+  },
+  {
+    "url": "https://contrast-ratio.com/",
+    "name": "Contrast Ratio"
+  },
+  {
+    "url": "https://purecss.io/",
+    "name": "Pure CSS"
+  },
+  {
+    "url": "https://caniuse.com/",
+    "name": "Can I Use"
+  },
+  {
+    "url": "https://bundlephobia.com/",
+    "name": "NPM bundlephopia"
+  },
+  {
+    "url": "https://coolors.co/",
+    "name": "Coolors - color scheme"
+  },
+  {
+    "url": "https://favicon.io/",
+    "name": "Favicon generator"
+  },
+  {
+    "url": "https://fontawesome.com/icons?d=gallery&m=free",
+    "name": "Font Awesome icons"
+  },
+  {
+    "url": "https://regex101.com/",
+    "name": "Regex 101"
+  }
+]
