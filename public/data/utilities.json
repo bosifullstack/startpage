@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://todoist.com/app#start",
+    "name": "Todoist"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/my-drive",
+    "name": "Google drive"
+  },
+  {
+    "url": "https://stackoverflow.com/",
+    "name": "Stack Overflow"
+  },
+  {
+    "url": "https://open.spotify.com/",
+    "name": "Spotify"
+  },
+  {
+    "url": "https://feedly.com/i/welcome",
+    "name": "Feedly"
+  },
+  {
+    "url": "https://www.overleaf.com/project",
+    "name": "Overleaf Latex"
+  },
+  {
+    "url": "https://repl.it/repls",
+    "name": "Repl.it"
+  }
+]

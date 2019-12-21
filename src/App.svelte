@@ -23,14 +23,10 @@
 </style>
 
 <main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit th
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
-</main>
 
-<Fetch dataFile="./data/tea.json" idName="tea" />
-<Fetch dataFile="./data/study.json" idName="study" />
-<Fetch dataFile="./data/programming.json" idName="programming" />
+  <Fetch dataFile="./data/tea.json" idName="tea" />
+  <Fetch dataFile="./data/study.json" idName="study" />
+  <Fetch dataFile="./data/programming.json" idName="programming" />
+  <Fetch dataFile="./data/utilities.json" idName="utilities" />
+  <Fetch dataFile="./data/books.json" idName="books" />
+</main>

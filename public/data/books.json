@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://sass-lang.com/documentation",
+    "name": "SASS Doc"
+  },
+  {
+    "url": "https://reactjs.org/",
+    "name": "React Doc"
+  },
+  {
+    "url": "https://react-redux.js.org/",
+    "name": "React-redux Doc"
+  },
+  {
+    "url": "https://webpack.js.org/concepts/",
+    "name": "Webpack Doc"
+  },
+  {
+    "url": "https://code.visualstudio.com/docs",
+    "name": "VS Code Docs"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/",
+    "name": "Mozilla Developers"
+  },
+  {
+    "url": "http://libgen.is/",
+    "name": "Library Genesis"
+  },
+  {
+    "url": "https://www.casadocodigo.com.br/",
+    "name": "Casa do Código"
+  }
+]
