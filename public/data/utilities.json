@@ -1,7 +1,7 @@
 [
   {
-    "url": "https://todoist.com/app#start",
-    "name": "Todoist"
+    "url": "https://vueds.com/",
+    "name": "Design system with vue"
   },
   {
     "url": "https://drive.google.com/drive/u/0/my-drive",
@@ -26,5 +26,13 @@
   {
     "url": "https://repl.it/repls",
     "name": "Repl.it"
+  },
+  {
+    "url": "https://rapidapi.com/?utm_source=header&utm_medium=email&utm_campaign=click-header",
+    "name": "API marketplace"
+  },
+  {
+    "url": "https://free-for.dev/#/",
+    "name": "Free for dev utilities"
   }
 ]

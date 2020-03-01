@@ -30,7 +30,7 @@
   <Fetch dataFile="./data/study.json" idName="study" />
   <Fetch dataFile="./data/programming.json" idName="programming" />
   <Fetch dataFile="./data/utilities.json" idName="utilities" />
-  <Fetch dataFile="./data/docs.json" idName="docs" />
+  <Fetch dataFile="./data/frameworks.json" idName="frameworks" />
 </main>
 
 <MakeTea />

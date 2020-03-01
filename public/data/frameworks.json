@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://nostalgic-css.github.io/NES.css/",
+    "name": "Nes.css"
+  },
+  {
+    "url": "https://purecss.io/",
+    "name": "Pure CSS"
+  },
+  {
+    "url": "https://vuepress.vuejs.org/",
+    "name": "Vue press"
+  },
+  {
+    "url": "https://svelte.dev/",
+    "name": "Svelte"
+  },
+  {
+    "url": "https://svelte-native.technology/",
+    "name": "Svelte Native"
+  },
+  {
+    "url": "https://spring.io/",
+    "name": "Spring"
+  },
+  {
+    "url": "https://laravel.com/",
+    "name": "Laravel"
+  }
+]
