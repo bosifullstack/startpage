@@ -7,22 +7,19 @@
 </style>
 
 <nav class="menuCel">
-  <button class="menu btn btn-nav" type="button" onclick="menuTea()">
+  <button class="menu btn btn-nav" type="button" onclick="menuCel('#tea')">
     Tea
   </button>
-  <button class="menu btn btn-nav" type="button" onclick="menuStudy()">
+  <button class="menu btn btn-nav" type="button" onclick="menuCel('#study')">
     Study
   </button>
-  <button class="menu btn btn-nav" type="button" onclick="menuProgramming()">
+  <button class="menu btn btn-nav" type="button" onclick="menuCel('#programming')">
     Programming
   </button>
-  <button class="menu btn btn-nav" type="button" onclick="menuUtilities()">
+  <button class="menu btn btn-nav" type="button" onclick="menuCel('#utilities')">
     Utilities
   </button>
-  <button class="menu btn btn-nav" type="button" onclick="menuBooks()">
-    Books
-  </button>
-  <button class="menu btn btn-nav" type="button" onclick="menuHowTea()">
-    How do I make Tea?
+  <button class="menu btn btn-nav" type="button" onclick="menuCel('#social')">
+    Social
   </button>
 </nav>

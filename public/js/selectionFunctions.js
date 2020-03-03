@@ -5,7 +5,7 @@ function clearMenu() {
   }
 }
 
-function clearCel() {
+function showClearCelBtn() {
   document.querySelector(".clearCel").style.display = "block";
 }
 
@@ -14,6 +14,5 @@ function clearScreen() {
   document.querySelector("#study").style.display = "none";
   document.querySelector("#programming").style.display = "none";
   document.querySelector("#utilities").style.display = "none";
-  document.querySelector("#docs").style.display = "none";
-  document.querySelector("#teaRecipes").style.display = "none";
+  document.querySelector("#frameworks").style.display = "none";
 }

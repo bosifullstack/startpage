@@ -4,12 +4,20 @@
     "name": "Design system with vue"
   },
   {
-    "url": "https://drive.google.com/drive/u/0/my-drive",
-    "name": "Google drive"
+    "url": "https://contrast-ratio.com/",
+    "name": "Contrast Ratio"
   },
   {
-    "url": "https://stackoverflow.com/",
-    "name": "Stack Overflow"
+    "url": "https://coolors.co/",
+    "name": "Coolors - color scheme"
+  },
+  {
+    "url": "https://favicon.io/",
+    "name": "Favicon generator"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/my-drive",
+    "name": "Google drive"
   },
   {
     "url": "https://open.spotify.com/",

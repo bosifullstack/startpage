@@ -1,14 +1,14 @@
 <script>
   import Fetch from "./Fetch.svelte";
   import MenuCel from "./MenuCel.svelte";
-  import MakeTea from "./MakeTea.svelte";
 </script>
 
 <style type="text/scss">
-  main {
-    text-align: center;
-    padding: 1em;
+  .flex-div {
     max-width: 240px;
+
+    text-align: center;
+    padding: unset;
     margin: 0 auto;
   }
   h1 {
@@ -16,37 +16,32 @@
     font-size: 4em;
     font-weight: 100;
   }
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
+  @media(min-width: 640px){
+    .flex-div {
+      height: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .flex-div__content {
+      display: flex;
+      justify-content: flex-start;
     }
   }
 </style>
 
 <MenuCel />
-<main>
+<main class="flex-div">
 
-  <Fetch dataFile="./data/tea.json" idName="tea" />
-  <Fetch dataFile="./data/study.json" idName="study" />
-  <Fetch dataFile="./data/programming.json" idName="programming" />
-  <Fetch dataFile="./data/utilities.json" idName="utilities" />
-  <Fetch dataFile="./data/frameworks.json" idName="frameworks" />
+  <div class="flex-div__content">  
+    <Fetch dataFile="./data/tea.json" idName="tea" />
+    <Fetch dataFile="./data/study.json" idName="study" />
+    <Fetch dataFile="./data/programming.json" idName="programming" />
+    <Fetch dataFile="./data/utilities.json" idName="utilities" />
+    <Fetch dataFile="./data/social.json" idName="social" />
+  </div>
 </main>
-
-<MakeTea />
-
-<div id="howToTea" class="menuCel">
-
-  <button class="menu btn btn-nav" type="button" onclick="menuHowTeaDesktop()">
-    How do I make Tea?
-  </button>
-</div>
-
-<div id="clearDesktop">
-  <button class="btn btn-nav" type="button" onclick="menuClearDesktop()">
-    Clear
-  </button>
-</div>
 
 <nav>
   <button class="clearCel btn btn-nav" type="button" onclick="menuClearCel()">
@@ -55,13 +50,7 @@
 </nav>
 
 <footer>
-  <script src="./js/selectionFunctions.js">
+  <script src="./js/selectionFunctions.js"></script>
 
-  </script>
-  <script src="./js/desktop.js">
-
-  </script>
-  <script src="./js/cell.js">
-
-  </script>
+  <script src="./js/cell.js"></script>
 </footer>

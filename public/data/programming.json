@@ -4,10 +4,6 @@
     "name": "Devs cheatsheets"
   },
   {
-    "url": "https://contrast-ratio.com/",
-    "name": "Contrast Ratio"
-  },
-  {
     "url": "https://hub.github.com/",
     "name": "Github CLI"
   },
@@ -18,14 +14,6 @@
   {
     "url": "https://bundlephobia.com/",
     "name": "NPM bundlephopia"
-  },
-  {
-    "url": "https://coolors.co/",
-    "name": "Coolors - color scheme"
-  },
-  {
-    "url": "https://favicon.io/",
-    "name": "Favicon generator"
   },
   {
     "url": "https://sentry.io/welcome/",
@@ -42,5 +30,13 @@
   {
     "url": "https://contabo.com/?show=vps",
     "name": "Good and cheap servers"
+  },
+  {
+    "url": "https://nostalgic-css.github.io/NES.css/",
+    "name": "Nes.css"
+  },
+  {
+    "url": "https://purecss.io/",
+    "name": "Pure CSS"
   }
 ]
