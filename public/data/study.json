@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://subscription.packtpub.com/",
+    "name": "Packtpub"
+  },
+  {
+    "url": "http://libgen.is/",
+    "name": "Library Genesis"
+  },
+  {
+    "url": "https://www.casadocodigo.com.br/",
+    "name": "Casa do Código"
+  },
+  {
+    "url": "https://roadmap.sh/",
+    "name": "Web Dev Roadmap"
+  },
+  {
+    "url": "https://frontendmasters.com",
+    "name": "Front-end Masters"
+  },
+  {
+    "url": "https://www.codingame.com/start",
+    "name": "CodinGame"
+  },
+  {
+    "url": "https://github.com/ossu/computer-science#core-programming",
+    "name": "Open-source CS course"
+  },
+  {
+    "url": "https://cursos.alura.com.br/dashboard",
+    "name": "Alura Dashboard"
+  },
+  {
+    "url": "https://www.udemy.com/home/my-courses/learning/",
+    "name": "Udemy"
+  },
+  {
+    "url": "https://pucminas.instructure.com/courses/1826",
+    "name": "PucMinas"
+  }
+]

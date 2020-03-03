@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://stackoverflow.com/",
+    "name": "Stack Overflow"
+  },
+  {
+    "url": "https://dev.to/",
+    "name": "Dev.to"
+  },
+  {
+    "url": "https://www.reddit.com/",
+    "name": "Reddit"
+  },
+  {
+    "url": "https://twitter.com/home",
+    "name": "Twitter"
+  },
+  {
+    "url": "https://www.linkedin.com/feed/",
+    "name": "Linkedin"
+  }
+]

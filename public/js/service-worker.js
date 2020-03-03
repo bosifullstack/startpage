@@ -3,7 +3,7 @@ const DATA_CACHE_NAME = 'data-cache-v1.2';
 
 const FILES_TO_CACHE = [
   'index.html',
-  'site.css',
+  'global.css',
   'normalize.css',
   'index.js',
   'images/favicon.ico', 
