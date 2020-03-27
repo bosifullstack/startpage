@@ -38,5 +38,9 @@
   {
     "url": "https://purecss.io/",
     "name": "Pure CSS"
+  },
+  {
+    "url": "https://www.getpapercss.com/",
+    "name": "Paper CSS"
   }
 ]
