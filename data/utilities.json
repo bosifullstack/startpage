@@ -1,39 +1,39 @@
 [
   {
-    "url": "https://vueds.com/",
-    "name": "Design system with vue"
+    "url": "https://github.com/ggreer/the_silver_searcher",
+    "name": "AG - Silver searcher"
   },
   {
-    "url": "https://contrast-ratio.com/",
-    "name": "Contrast Ratio"
+    "url": "https://github.com/Spotifyd/spotifyd",
+    "name": "Spotify CLI"
   },
   {
-    "url": "https://coolors.co/",
-    "name": "Coolors - color scheme"
+    "url": "https://github.com/djadmin/medium-cli",
+    "name": "Medium CLI"
+  },
+  {
+    "url": "https://github.com/k4m4/terminals-are-sexy#readme",
+    "name": "Terminals and utils"
+  },
+  {
+    "url": "https://cli.github.com/",
+    "name": "GitHub CLI"
+  },
+  {
+    "url": "https://icones.netlify.app/",
+    "name": "Icones - Lists of icons"
+  },
+  {
+    "url": "https://newsboat.org/releases/2.20.1/docs/newsboat.html#_first_steps",
+    "name": "Newsboat RSS"
   },
   {
     "url": "https://favicon.io/",
     "name": "Favicon generator"
   },
   {
-    "url": "https://drive.google.com/drive/u/0/my-drive",
-    "name": "Google drive"
-  },
-  {
-    "url": "https://open.spotify.com/",
-    "name": "Spotify"
-  },
-  {
-    "url": "https://feedly.com/i/welcome",
-    "name": "Feedly"
-  },
-  {
     "url": "https://www.overleaf.com/project",
     "name": "Overleaf Latex"
-  },
-  {
-    "url": "https://repl.it/repls",
-    "name": "Repl.it"
   },
   {
     "url": "https://rapidapi.com/?utm_source=header&utm_medium=email&utm_campaign=click-header",

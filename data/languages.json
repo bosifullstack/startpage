@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://awesome-python.com/",
+    "name": "Awesome Python"
+  },
+  {
+    "url": "https://github.com/alebcay/awesome-shell#readme",
+    "name": "Awesome Shell"
+  },
+  {
+    "url": "https://github.com/sindresorhus/awesome-nodejs",
+    "name": "Awesome NodeJs"
+  },
+  {
+    "url": "https://bazel.build/",
+    "name": "Google Bazel"
+  },
+  {
+    "url": "https://developers.google.com/protocol-buffers",
+    "name": "Google Protocol buffers"
+  },
+  {
+    "url": "https://learnvimscriptthehardway.stevelosh.com/",
+    "name": "VimScript"
+  }
+]
