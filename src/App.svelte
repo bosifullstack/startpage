@@ -37,7 +37,7 @@
   <div class="flex-div__content">  
     <Fetch dataFile="./data/tea.json" idName="tea" />
     <Fetch dataFile="./data/study.json" idName="study/free" />
-    <Fetch dataFile="./data/programming.json" idName="programming" />
+    <Fetch dataFile="./data/books.json" idName="books" />
     <Fetch dataFile="./data/utilities.json" idName="utilities" />
     <Fetch dataFile="./data/languages.json" idName="languages" />
   </div>

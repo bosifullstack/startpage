@@ -4,43 +4,31 @@
     "name": "AG - Silver searcher"
   },
   {
-    "url": "https://github.com/Spotifyd/spotifyd",
-    "name": "Spotify CLI"
-  },
-  {
-    "url": "https://github.com/djadmin/medium-cli",
-    "name": "Medium CLI"
-  },
-  {
-    "url": "https://github.com/k4m4/terminals-are-sexy#readme",
-    "name": "Terminals and utils"
-  },
-  {
-    "url": "https://cli.github.com/",
-    "name": "GitHub CLI"
-  },
-  {
-    "url": "https://icones.netlify.app/",
-    "name": "Icones - Lists of icons"
-  },
-  {
-    "url": "https://newsboat.org/releases/2.20.1/docs/newsboat.html#_first_steps",
-    "name": "Newsboat RSS"
-  },
-  {
     "url": "https://favicon.io/",
     "name": "Favicon generator"
   },
   {
+    "url": "https://devhints.io/",
+    "name": "Devs cheatsheets"
+  },
+  {
+    "url": "https://hub.github.com/",
+    "name": "Github CLI"
+  },
+  {
+    "url": "https://caniuse.com/",
+    "name": "Can I Use"
+  },
+  {
+    "url": "https://regex101.com/",
+    "name": "Regex 101"
+  },
+  {
+    "url": "https://contabo.com/?show=vps",
+    "name": "Good and cheap servers"
+  },
+  {
     "url": "https://www.overleaf.com/project",
     "name": "Overleaf Latex"
-  },
-  {
-    "url": "https://rapidapi.com/?utm_source=header&utm_medium=email&utm_campaign=click-header",
-    "name": "API marketplace"
-  },
-  {
-    "url": "https://free-for.dev/#/",
-    "name": "Free for dev utilities"
   }
 ]
