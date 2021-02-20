@@ -12,15 +12,7 @@
     "name": "Awesome NodeJs"
   },
   {
-    "url": "https://bazel.build/",
-    "name": "Google Bazel"
-  },
-  {
-    "url": "https://developers.google.com/protocol-buffers",
-    "name": "Google Protocol buffers"
-  },
-  {
-    "url": "https://learnvimscriptthehardway.stevelosh.com/",
-    "name": "VimScript"
+    "url": "https://sonic-pi.net/#intro",
+    "name": "Sonic Pi"
   }
 ]
